@@ -21,3 +21,8 @@ CREATE PROFILE Perfil_1 RESOURCE_LIMIT
 Por defecto, cuando creas una BD, ejecutas el usuario `SYSTEM`. Lo primero es crear un usuario con permisos (para crear tablas, etc.), y crear las tablas bajo ese usuario. **Prohibido crear objetos bajo el usuario SYS**.
 
 **Todo usuario creado, por defecto, no tiene ningún permiso** ni cuota en el tablespace que le asignes.
+
+#### Seguridad
+
+> La instancia `SPFILE` hace referencia al fichero de parametros del sistema de la BD. Aquí se almacenan todos los metadatos de la BD (memoria necesaria para iniciarse, espacio necesario, *path*s asociados, ...).
+
